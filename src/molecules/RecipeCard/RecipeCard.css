@@ -1,0 +1,27 @@
+
+.recipe-card {
+  margin: 7px auto;
+  border: 2px solid #333;
+  padding: 14px;
+  background-color: turquoise;
+  min-height: 231px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-card__title {
+  width: 100%;
+  height: fit-content;
+  color: white;
+  background: #00000045;
+  margin-bottom: 50px;
+}
+
+.recipe-card__diets {
+  height: fit-content;
+  background: #00000045;
+  color: white;
+  padding: 0 3px;
+  width: 100%;
+  align-self: flex-end;
+}

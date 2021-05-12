@@ -1,0 +1,7 @@
+.recipe-search {
+  display: flex;
+}
+.recipe-search__input {
+  width: 100%;
+  border: 2px solid #333;
+}

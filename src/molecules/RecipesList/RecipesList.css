@@ -1,0 +1,24 @@
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe-list__item {
+  width: 100%
+}
+
+@media all and (min-width: 600px) {
+  .recipe-list__item {
+    width: 49%;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .recipe-list__item {
+    width: 24%;
+  }
+  .recipe-list {
+    justify-content: space-around;
+  }
+}
